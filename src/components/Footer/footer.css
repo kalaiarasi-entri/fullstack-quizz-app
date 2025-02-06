@@ -1,0 +1,19 @@
+.footer{
+    background-color: rgb(237, 237, 240);
+}
+
+.footer-wrapper,.footer{
+    width:100%;
+}
+
+.footer-image-section{
+    width:20%;
+}
+
+.foooter-list-section{
+    width:80%;
+}
+
+li{
+    margin-bottom: 5px;
+}
