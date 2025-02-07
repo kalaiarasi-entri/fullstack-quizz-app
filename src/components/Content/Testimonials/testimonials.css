@@ -1,0 +1,34 @@
+.description {
+  flex: 1 1 100%;
+}
+
+.description-wrapper {
+  z-index: 1;
+  gap: 32px;
+  max-width: 400px;
+}
+.description-wrapper{
+    font-size: var(--font-size-87-5);
+}
+
+.testimonials-heading {
+  padding: 10px 12px 11px 14px;
+  border-radius: 8px;
+  background-color: rgb(244, 244, 246);
+}
+
+.description h2 {
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 400;
+}
+
+.testimonials-image {
+  flex: 1 1 100%;
+}
+
+.testimonials-image img {
+  color: transparent;
+  max-width: 100%;
+  height: auto;
+}

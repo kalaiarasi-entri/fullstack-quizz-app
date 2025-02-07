@@ -1,0 +1,22 @@
+.steps-div{
+    border-color: rgb(217, 229, 242);
+    border-width: 1px;
+    border-radius: 16px;
+    border-style: solid;
+}
+
+.steps-div h3{
+    color: rgb(8, 12, 26);
+}
+
+.steps-div img{
+    color: transparent;
+    max-width: 100%;
+    height: auto;
+}
+
+.steps-div p{
+    font-size: 16px;
+    line-height:1.4;
+    font-weight: 400;
+}
