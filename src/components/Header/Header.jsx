@@ -36,7 +36,7 @@ const Header = () => {
                 className="nav-link fw-bold d-flex align-items-center"
                 href="/business"
               >
-                Business
+                Home
                 <svg
                   width="10"
                   height="8"
@@ -65,7 +65,7 @@ const Header = () => {
                 className="nav-link fw-bold d-flex align-items-center"
                 href="/education"
               >
-                Education
+                Topics
                 <svg
                   width="10"
                   height="8"
@@ -94,7 +94,7 @@ const Header = () => {
                 className="nav-link fw-bold d-flex align-items-center"
                 href="/enterprise"
               >
-                Enterprise
+                Challenges
                 <svg
                   width="10"
                   height="8"
@@ -123,7 +123,7 @@ const Header = () => {
                 className="nav-link fw-bold d-flex align-items-center"
                 href="/learn"
               >
-                Learn
+                Leaderboard
                 <svg
                   width="10"
                   height="8"
@@ -152,7 +152,7 @@ const Header = () => {
                 className="nav-link fw-bold d-flex align-items-center"
                 href="/pricing"
               >
-                Pricing
+                About
                 <svg
                   width="10"
                   height="8"
@@ -181,7 +181,7 @@ const Header = () => {
                 className="nav-link fw-bold d-flex align-items-center"
                 href="/talk-to-sales"
               >
-                Talk to Sales
+                Contact
                 <svg
                   width="10"
                   height="8"

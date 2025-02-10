@@ -6,29 +6,28 @@ const UsecaseSection = () => {
   // Data passed as props to Testimonials component
   const testimonialData = [
     {
-      heading:"In the classroom",
+      heading: "In the classroom",
       description:
-        "Mentimeter allows everyone to ask questions, to get clarification or a clearer understanding on subjects resulting in a more fulfilling learning experience.",
+        "This quiz platform has made my coding classes more interactive. Students enjoy learning and competing at the same time!.",
       name: "Teresa Delfinn",
       university: "California State Polytechnic University",
       imageSrc:
         "https://static.mentimeter.com/static/images/ClassroomBackground.webp",
-      imageAlt: "A man and a woman laughing",
+      imageAlt: "No Image Available",
       buttonText: "Explore Education Use Cases", // Dynamic button text
-      rowReverse: true // This will apply flex-row-reverse
+      rowReverse: true, // This will apply flex-row-reverse
     },
     {
-      heading:"In the office",
+      heading: "In the office",
       description:
-        "I have produced powerful interactions, and everyone seems to be smiling. Mentimeter enables us to also collect high-quality data points.",
+        "We use this for our developer training sessions. It’s a fun way to assess skills and encourage continuous learning.",
       name: "Merv Wyeth",
       university: "Program Director at Project Management Institute",
       imageSrc:
         "https://static.mentimeter.com/static/images/OfficeBackground.png",
-      imageAlt: "A man and a woman laughing",
+      imageAlt: "No image Available",
       buttonText: "Work use cases", // Dynamic button text
-      rowReverse: false // This will  apply flex-row
-
+      rowReverse: false, // This will  apply flex-row
     },
   ];
   return (
@@ -42,7 +41,8 @@ const UsecaseSection = () => {
             className="text-center mt-2 video-text"
             style={{ fontSize: "18px" }}
           >
-            Mentimeter helps you create, interact, and analyse - let's see how!
+            Quiz Master helps you to Learn, Challenge, and Track Progress -
+            let's see how!
           </p>
         </section>
         <section className="steps">
@@ -64,15 +64,15 @@ const UsecaseSection = () => {
               </div>
               <div>
                 <p className="pt-4 fw-normal">
-                  Whatever you're looking to create, Mentimeter has the answer.
-                  Make your presentation in seconds from a template, or start
-                  from scratch, add an interactive slide, and you’re all set!
+                  Build custom quizzes in seconds! Choose from various
+                  coding-related questions, add difficulty levels, and set time
+                  limits for each question.
                 </p>
               </div>
             </div>
             <div className="d-flex align-items-start justify-content-between flex-column lh-1 fw-normal steps-div  px-4 py-4">
               <div>
-                <h3>Interact</h3>
+                <h3>Play</h3>
               </div>
               <div
                 className="d-flex flex-column align-items-start w-auto pt-3"
@@ -87,9 +87,8 @@ const UsecaseSection = () => {
               </div>
               <div>
                 <p className="pt-4 fw-normal">
-                  Whatever you're looking to create, Mentimeter has the answer.
-                  Make your presentation in seconds from a template, or start
-                  from scratch, add an interactive slide, and you’re all set!
+                  Join a live quiz or practice at your own pace. Answer
+                  questions instantly on any device and see real-time results.
                 </p>
               </div>
             </div>
@@ -110,14 +109,15 @@ const UsecaseSection = () => {
               </div>
               <div>
                 <p className="pt-4 fw-normal">
-                  Whatever you're looking to create, Mentimeter has the answer.
-                  Make your presentation in seconds from a template, or start
-                  from scratch, add an interactive slide, and you’re all set!
+                  Track performance insights with detailed reports. Identify
+                  your strengths and areas for improvement with analytics-driven
+                  feedback.
                 </p>
               </div>
             </div>
           </div>
         </section>
+        {/* Testimonial details passing data to Testimonials component */}
         {testimonialData.map((testimonial, index) => (
           <Testimonials
             key={index} // Unique key for each item in the array

@@ -23,12 +23,12 @@ const VideoSection = () => {
             </div>
             <ul className="list-unstyled">
               <li>overview</li>
-              <li>AI Menti builder</li>
+              <li>AI Quiz Master Builder</li>
               <li>Live polling</li>
-              <li>Word cloud</li>
+              <li>Leaderboards & Badges</li>
               <li>Quiz</li>
               <li>Q&A</li>
-              <li>Survey</li>
+              <li>HTML & CSS Quiz</li>
               <li>Presentations</li>
             </ul>
           </div>
@@ -57,7 +57,7 @@ const VideoSection = () => {
               <li>Accessablility</li>
               <li>Help Center</li>
               <li>Requirements</li>
-              <li>AI at Mentimeter</li>
+              <li>AI at Quiz Master</li>
               <li>Cookie peferences</li>
             </ul>
           </div>
@@ -73,7 +73,6 @@ const VideoSection = () => {
               <li>Benifits</li>
               <li>Contact us</li>
               <li>Climate</li>
-              <li>Investors</li>
             </ul>
           </div>
         </div>
